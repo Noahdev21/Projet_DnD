@@ -6,7 +6,7 @@
 
     <title>Donjon et Dragon</title>
 
-    <link href="/DnD/Web/styles/styles.css" rel="stylesheet">
+    <link href="/DnD/Web/assets/styles/styles.css" rel="stylesheet">
     <link rel="icon" href="/DnD/Web/assets/images/favicon.png" type="png">
 
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
@@ -17,29 +17,31 @@
 <body>
 
     <header>
-        <nav>
-            <ul class="titre">
-                <li><a href="index.html"><img src="/DnD/Web/assets/images/logo.png" alt="Logo" height="60px"></a></li>
-                <li><a href="index.html"><h1>Donjon & Dragon</h1></a></li>
-                <div class="sous-titre">
-                    <li><a href="index.html">Fiche Joueur</a></li>
-                    <li><a href="index.html">Règles du jeu</a></li>
-                    <li><a href="index.html">Rejoindre une partie</a></li>
-                </div>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" alt="Logo Donjon & Dragon" height="60">
+                    <span>Donjon & Dragon</span>
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                    <li><a href="./pages/fiches.html">Fiche Joueur</a></li>
+                    <li><a href="#">Règles du jeu</a></li>
+                    <li><a href="#">Rejoindre une partie</a></li>
             </ul>            
         </nav>
-        <div class="hero">
-            <main>
-                <h2>Lancez les dés. Changez le destin. </h2>
-                <h3>Une expérience de jeu de rôle en ligne moderne, inspirée de Donjons & Dragons, conçue pour des aventures rapides, immersives et accessibles depuis le navigateur.</h3>
-                <a class="button_jouer" href="jouer.html">Entrer dans le donjon</a>
-            </main>
-        </div>
-
-
     </header>
-    <footer>
+        <section class="hero">
+            <div>
+                <h1 class="accroche">Lancez les dés. Changez le destin.</h1>
+                <h2>Une expérience de jeu de rôle en ligne moderne, inspirée de Donjons & Dragons, conçue pour des aventures rapides, immersives et accessibles depuis le navigateur.</h2>
+                <a href="jouer.html" class="button-jouer">Entrez dans le donjon</a>
+            </div>
+        </section>
+    <footer class="footer">
         <p>© 2026 — Projet personnel développé par <strong>CRUL Noah</strong></p>
+        <p class="disclaimer">Site non officiel, sans affilation avec Wizards of the Coast.</p>
     </footer>
 </body>
 </html>

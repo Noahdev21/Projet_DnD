@@ -1,0 +1,109 @@
+* {
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Merriweather', serif;
+    color: #e6dccf;
+    background-image: url(/DnD/Web/assets/images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.6rem;
+    color: #e6dccf;
+    text-decoration: none;
+}
+.logo img{
+    display: block;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links a{
+    font-size: 1.2rem;
+    color: #e6dccf;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color: #c9a24d;
+}
+.hero{
+    min-height: calc(100vh - 120px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    
+}
+.accroche{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+.hero h2{
+    font-size: 24px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.button-jouer{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 14px 36px;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: #1b1b1b;
+    background: linear-gradient(135deg, #f5d27a, #c9a24d);
+    border-radius: 6px;
+    border: 1px solid #e6c36a;
+    box-shadow:
+        0 0 15px rgba(201, 162, 77, 0.5),
+        inset 0 0 5px rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+.button-jouer:hover {
+    transform: translateY(-2px) scale(1.03);
+    color: #8b0000;
+
+    box-shadow:
+        0 0 25px rgba(255, 183, 77, 0.8),
+        inset 0 0 8px rgba(255, 255, 255, 0.5);
+}
+.footer{
+    background-color: #1b1b1b;
+    color: #9c958b;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.85rem;
+}
+.footer .disclaimer{
+    margin-top: 8px;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
