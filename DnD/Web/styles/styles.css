@@ -1,7 +1,12 @@
 * {
     padding : 0;
     margin: 0;
+
+}
+body{
     font-family: 'Merriweather', serif;
+    color: #e6dccf;
+    background-color: #1b1b1b;
 }
 header {
     background-image: url(/DnD/Web/assets/images/hero.png);
@@ -12,9 +17,14 @@ header {
     
 }
 nav{
-    display: bloc;
     background-color: rgba(0, 0, 0, 0.1);
 }
+.titre {
+    padding: 40px 40px 30px 50px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
 ul {
     width: 100%;
     text-align: center;
@@ -45,12 +55,7 @@ h1 {
 img {
     display: block;
 }
-.titre {
-    color: #e6dccf;
-    padding: 40px 40px 30px 50px;
-    font-family: 'Cinzel', serif;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
-}
+
 .sous-titre a{
     padding: 60px;
     font-size: 22px;
@@ -77,6 +82,7 @@ img {
     width: 50%;
     display: block;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.1);
  }
 .hero{
     align-items: center;
@@ -91,4 +97,31 @@ h2{
 }
 h3{
     font-size: 30px;
+}
+.button_jouer {
+    display: inline-block;
+    margin-top: 70px;
+    padding: 14px 36px;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #1b1b1b;
+    background: linear-gradient(135deg, #f5d27a, #c9a24d);
+    border-radius: 6px;
+    border: 1px solid #e6c36a;
+    box-shadow: 0 0 15px rgba(201, 162, 77, 0.5),
+    inset 0 0 5px rgba(255, 255, 255, 0.4);
+    transition: all 0.25s ease;
+}
+.button_jouer:hover{
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 0 25px rgba(255, 183, 77, 0.8),
+    inset 0 0 8px rgba(255, 255, 255, 0.5);
+    color: #8b0000;
+}
+footer{
+    background-color: #1b1b1b;
+    color: #e6dccf;
+    padding: 5px 0;
+    text-align: center;
 }

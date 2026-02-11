@@ -1,0 +1,15 @@
+Fond : #1b1b1b (noir/gris très sombre)
+
+Cartes / blocs : #2a2a2a
+
+Texte : #e6dccf (blanc parchemin)
+
+Accent : #8b0000 (rouge sombre / sang)
+
+Second accent (optionnel) : #c9a24d (or vieilli)
+
+👉 Utilisation :
+
+Rouge = actions, boutons importants
+
+Or = titres, stats, rareté
